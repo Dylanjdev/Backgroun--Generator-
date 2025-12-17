@@ -1,8 +1,8 @@
 // updated javascript
 
 const css = document.querySelector('h3');
-const [color1, color2] = document.querySelectorAll('.color')
-const body = document.querySelector('#gradient');
+const [color1, color2] = document.querySelectorAll('.color1, .color2')
+const body = document.querySelector('#Gradient');
 
 setGradient = () => {
 	body.style.background = _linearGradient();
